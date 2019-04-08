@@ -1,0 +1,31 @@
+/*RESET*/ 
+ *{margin: 0; padding: 0; font-size: 100%; font-family: 'Indie Flower', cursive; font-weight: normal;
+box-sizing: border-box; boder:none; outline: none;}
+img {max-width: 100%;}
+ul{list-style: none;}
+a{text-decoration: bisque}
+h2{font-size: 2em; color: #333333;}
+p {
+    font-size: 1.5em; columns: #777777;
+    text-align: center;
+}
+
+
+
+button{
+    width: 100px;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+    background: rgb(5, 5, 0)
+}
+
+#inicio{
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 350px; 
+    margin: 0 auto;
+}
+
+body {
+    background: url("C:/Users/Estágio Tarde/Desktop/Renata-tarde/jogo/Brinc/Total_Rickall.png") no-repeat;
+}
