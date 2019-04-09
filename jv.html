@@ -4,70 +4,67 @@
     <head>
         <title> Jogo da Velha </title>
         <meta charset="utf-8">
-        <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
         <link rel="stylesheet" href="css/esti.css">
-        <style>
-        /* <!-- <style type="esti.css">
-            #inicio{
-                margin-top: 60px;
-            }
-            .esp{
-                width: 80px;
-                height: 80px;
-                border: 5px solid #333;
-            }  --> */
 
-            </style>
+        <style type="text/css">
+           
+        </style>
     </head>
-
-    </html>
 
     <body>
         <div id="inicio">
             <p>Jogo da Velha</p>
-            <!-- <img src="Brinc/circ_id.png" border='0' height="50">
-            <img src="Brinc/x_id.png" border='0' height="50"> -->
-      
+             <!-- <img src="Brinc/circ_id.png" border='0' height="50">
+            <img src="Brinc/x_id.png" border='0' height="50"> --> 
         <p>
-            <button id="t1" onclick="primeiro()"></button>
-            <button id="t2" onclick="segundo()"></button>
-            <button id="t3" onclick="terceiro()"></button>
+            <button id="t1" onclick="func('t1')"></button>
+            <button id="t2" onclick="func('t2')"></button>
+            <button id="t3" onclick="func('t3')"></button>
 
         </p>
+
         <p>
-            <button id="t4" onclick="quarto()"></button>
-            <button id="t5" onclick="quinto()"></button>
-            <button id="t6" onclick="sexto()"></button>
+            <button id="t4" onclick="func('t4')"></button>
+            <button id="t5" onclick="func('t5')"></button>
+            <button id="t6" onclick="func('t6')"></button>
 
         </p>
+
         <p>
-            <button id="t7" onclick="setimo()"></button>
-            <button id="t8" onclick="oitavo()"></button>
-            <button id="t9" onclick="nono()"></button>
+            <button id="t7" onclick="func('t7')"></button>
+            <button id="t8" onclick="func('t8')"></button>
+            <button id="t9" onclick="func('t9')"></button>
 
-        </p>
-    </div>
-        <!-- <div class="tabela">
-            <div id='t1' class='esp'escolha=""></div>
-            <div id='t2' class='esp'escolha=""></div>
-            <div id='t3' class='esp'escolha=""></div>
+        </p> 
+        <!-- </div> 
 
-            <div id='u1' class='esp'escolha=""></div>
-            <div id='u2' class='esp'escolha=""></div>
-            <div id='u3' class='esp'escolha=""></div>
+         <div class="tabela">
+            <div>
+                <div id='t1' class='esp' onclick="PRIMEIRO('t1')"></div>
+                <div id='t2' class='esp' onclick="PRIMEIRO('t2')"></div>
+                <div id='t3' class='esp' onclick="PRIMEIRO('t3')"></div>
+            </div>
 
-            <div id='v1' class='esp'escolha=""></div>
-            <div id='v2' class='esp'escolha=""></div>
-            <div id='v3' class='esp'escolha=""></div> -->
+            <div>
+                <div id='t4' class='esp' onclick="PRIMEIRO('t4')"></div>
+                <div id='t5' class='esp' onclick="PRIMEIRO('t5')"></div>
+                <div id='t6' class='esp' onclick="PRIMEIRO('t6')"></div>
+            </div>
 
-        </div>
+            <div> 
+                <div id='t7' class='esp' onclick="PRIMEIRO('t7')"></div>
+                <div id='t8' class='esp' onclick="PRIMEIRO('t8')"></div>
+                <div id='t9' class='esp' onclick="PRIMEIRO('t9')"></div>
+            </div>
+        </div>  -->
         <!-- <header classe='tabela'>
             <h1>
                 <a href="index.html" title=' Jogo da Velha '> Jogo da Velha </a>
             </h1> -->
-            <!-- <hr> -->
-            <!-- <table border="1" align ="center" width=500 heigth=500>
+        <!-- <hr> -->
+        <!-- <table border="1" align ="center" width=500 heigth=500>
                 <tr>
                     <td> </td>
                     <td> </td>
@@ -87,12 +84,13 @@
         
                 </tr>
         </table> -->
-            <!-- <form method='post'>
+        <!-- <form method='post'>
             <button><i class="fa fa-circle" aria-hidden="true"></i>Iniciar Jogo</button>
                 
         </form> -->
-        </header>
+        <!-- </header> -->
 
         <script src="./jv.js"></script>
     </body>
-</DOCTYPE>
+
+    </html>
