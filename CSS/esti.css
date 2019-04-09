@@ -3,6 +3,8 @@
 box-sizing: border-box; boder:none; outline: none;} */
 img {
     max-width: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 ul{
@@ -46,9 +48,18 @@ button{
     height: 100px;
     padding: 0;
     margin: 0;
-    background: rgb(5, 5, 0)
+    
 }
 
+.botao_container{
+    display: flex;
+    justify-content: center;
+  
+}
+.zerar{
+    background-color: orange;
+    
+}
 #inicio{
     background-color: rgba(255, 255, 255, 0.6);
     width: 350px; 
@@ -56,13 +67,33 @@ button{
   } 
 
 body {
-    background: url("C:/Users/1090481913027/Documents/jogo/Brinc/Total_Rickall.png") no-repeat; 
+    background: url("../Brinc/Total_Rickall.png") no-repeat; 
 }   
  
 
-.x_id {
+/* .x_id {
     background-color: orangered;
 }
 .certo_id {
     background-color: green;
+} */
+
+  
+
+.x_id {
+    background: url("Brinc/x.png"); 
+    max-width:100%;
+    max-height:100%;
+    border:0; 
+    text-align: center
+    
+}   
+
+.certo_id{
+    background: url("Brinc/b.png"); 
+    max-width:100%;
+    max-height:100%;
+    border:0; 
+    margin: 0 auto;
+    text-align: center;
 }
