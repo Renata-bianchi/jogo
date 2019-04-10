@@ -1,6 +1,3 @@
- RESET 
-/* margin: 0; padding: 0; font-size: 100%; font-family: 'Indie Flower', cursive; font-weight: normal;
-box-sizing: border-box; boder:none; outline: none;} */
 img {
     max-width: 100%;
     width: 100%;
@@ -20,7 +17,7 @@ h2{
 }
 
 p {
-    font-size: 1.5em; columns: #777777;
+    font-size: 2em; columns: #777777;
     text-align: center;
 } 
 
@@ -48,6 +45,9 @@ button{
     height: 100px;
     padding: 0;
     margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     
 }
 
@@ -58,6 +58,11 @@ button{
 }
 .zerar{
     background-color: orange;
+    font-size: 1.5em; columns: #777777;
+    text-align: center;
+    z-index: 1;
+    width: 100px;
+    height: 50px;
     
 }
 #inicio{
@@ -69,31 +74,16 @@ button{
 body {
     background: url("../Brinc/Total_Rickall.png") no-repeat; 
 }   
- 
-
-/* .x_id {
-    background-color: orangered;
+/* #terror{
+    display: none;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    display: flex;
+    float: right;
 }
-.certo_id {
-    background-color: green;
-} */
+  */
 
-  
-
-.x_id {
-    background: url("Brinc/x.png"); 
-    max-width:100%;
-    max-height:100%;
-    border:0; 
-    text-align: center
-    
-}   
-
-.certo_id{
-    background: url("Brinc/b.png"); 
-    max-width:100%;
-    max-height:100%;
-    border:0; 
-    margin: 0 auto;
-    text-align: center;
-}
