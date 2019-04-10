@@ -8,13 +8,13 @@ var cont = 0
 
 function zerar(){
     var elementos = document.getElementsByTagName('button');
-    for(var i=0; i <elementos.length; i++){
+    for(var i=0; i <=elementos.length; i++){
         elementos[i].style.backgroundColor = 'rgb(500,500,500)'
     }
 }
 
 function marca(id, posicao) {
-    let elemento = document.getElementsByClassName('primeiro');
+    let elemento = document.getElementsByClassName('botao');
     console.log(numeroDejogadas);
     if (!botao[posicao] && cont == 0) {
         if (numeroDejogadas % 2 == 0) {
@@ -60,7 +60,22 @@ function marca(id, posicao) {
         alert('Jogador 2 venceu')
     }else if (elemento[2].style.backgroundColor == 'rgb(204, 204, 204)' && elemento[4].style.backgroundColor == 'rgb(204, 204, 204)' && elemento[6].style.backgroundColor == 'rgb(204, 204, 204)'){
         alert('Jogador 2 venceu')
+    }else if (elemento[0].style.backgroundColor == 'rgb(204, 204, 204)' && elemento[1].style.backgroundColor == 'rgb(0, 0, 0)' && elemento[2].style.backgroundColor == 'rgb(204, 204, 204)' && elemento[3].style.backgroundColor == 'rgb(204, 204, 204)' && elemento[4].style.backgroundColor == 'rgb(0, 0, 0)' && elemento[5].style.backgroundColor == 'rgb(0, 0, 0)' && elemento[6].style.backgroundColor == 'rgb(0, 0, 0)' && elemento[7].style.backgroundColor == 'rgb(204, 204, 204)' && elemento[8].style.backgroundColor == 'rgb(0, 0, 0)'){
+        alert('Deu velha')
+    }else if (elemento[0].style.backgroundColor == 'rgb(0, 0, 0)' && elemento[1].style.backgroundColor == 'rgb(204, 204, 204)' && elemento[2].style.backgroundColor == 'rgb(0, 0, 0)' && elemento[3].style.backgroundColor == 'rgb(0, 0, 0)' && elemento[4].style.backgroundColor == 'rgb(204, 204, 204)' && elemento[5].style.backgroundColor == 'rgb(204, 204, 204)' && elemento[6].style.backgroundColor == 'rgb(204, 204, 204)' && elemento[7].style.backgroundColor == 'rgb(0, 0, 0)' && elemento[8].style.backgroundColor == 'rgb(0, 0, 0)'){
+        alert('Deu velha')
+    }else if (elemento[0].style.backgroundColor == 'rgb(0, 0, 0)' && elemento[1].style.backgroundColor == 'rgb(204, 204, 204)' && elemento[2].style.backgroundColor == 'rgb(0, 0, 0)' && elemento[3].style.backgroundColor == 'rgb(0, 0, 0)' && elemento[4].style.backgroundColor == 'rgb(204, 204, 204)' && elemento[5].style.backgroundColor == 'rgb(204, 204, 204)' && elemento[6].style.backgroundColor == 'rgb(204, 204, 204)' && elemento[7].style.backgroundColor == 'rgb(0, 0, 0)' && elemento[8].style.backgroundColor == 'rgb(0, 0, 0)'){
+        alert('Deu velha')
+    }else if (elemento[0].style.backgroundColor == 'rgb(0, 0, 0)' && elemento[1].style.backgroundColor == 'rgb(0, 0, 0)' && elemento[2].style.backgroundColor == 'rgb(204, 204, 204)' && elemento[3].style.backgroundColor == 'rgb(204, 204, 204)' && elemento[4].style.backgroundColor == 'rgb(204, 204, 204)' && elemento[5].style.backgroundColor == 'rgb(0, 0, 0)' && elemento[6].style.backgroundColor == 'rgb(0, 0, 0)' && elemento[7].style.backgroundColor == 'rgb(204, 204, 204)' && elemento[8].style.backgroundColor == 'rgb(0, 0, 0)'){
+        alert('Deu velha')
+    }else if (elemento[0].style.backgroundColor == 'rgb(204, 204, 204)' && elemento[1].style.backgroundColor == 'rgb(204, 204, 204)' && elemento[2].style.backgroundColor == 'rgb(0, 0, 0)' && elemento[3].style.backgroundColor == 'rgb(0, 0, 0)' && elemento[4].style.backgroundColor == 'rgb(0, 0, 0)' && elemento[5].style.backgroundColor == 'rgb(204, 204, 204)' && elemento[6].style.backgroundColor == 'rgb(204, 204, 204)' && elemento[7].style.backgroundColor == 'rgb(0, 0, 0)' && elemento[8].style.backgroundColor == 'rgb(204, 204, 204)'){
+        alert('Deu velha')
+    }else if (elemento[0].style.backgroundColor == 'rgb(204, 204, 204)' && elemento[1].style.backgroundColor == 'rgb(0, 0, 0)' && elemento[2].style.backgroundColor == 'rgb(204, 204, 204)' && elemento[3].style.backgroundColor == 'rgb(0, 0, 0)' && elemento[4].style.backgroundColor == 'rgb(204, 204, 204)' && elemento[5].style.backgroundColor == 'rgb(0, 0, 0)' && elemento[6].style.backgroundColor == 'rgb(0, 0, 0)' && elemento[7].style.backgroundColor == 'rgb(204, 204, 204)' && elemento[8].style.backgroundColor == 'rgb(0, 0, 0)'){
+        alert('Deu velha')
+    }else if (elemento[0].style.backgroundColor == 'rgb(0, 0, 0)' && elemento[1].style.backgroundColor == 'rgb(204, 204, 204)' && elemento[2].style.backgroundColor == 'rgb(0, 0, 0)' && elemento[3].style.backgroundColor == 'rgb(204, 204, 204)' && elemento[4].style.backgroundColor == 'rgb(0, 0, 0)' && elemento[5].style.backgroundColor == 'rgb(0, 0, 0)' && elemento[6].style.backgroundColor == 'rgb(204, 204, 204)' && elemento[7].style.backgroundColor == 'rgb(0, 0, 0)' && elemento[8].style.backgroundColor == 'rgb(204, 204, 204)'){
+        alert('Deu velha')
     }
+
 
 }
 
