@@ -72,7 +72,7 @@ button{
   } 
 
 body {
-    background: url("../Brinc/Total_Rickall.png") no-repeat; 
+    background: url("../Brinc/Total_Rickall.png") no-repeat fixed; 
 }   
 /* #terror{
     display: none;

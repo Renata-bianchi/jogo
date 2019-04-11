@@ -4,13 +4,13 @@ var numeroDejogadas = 0;
 var cont = 0
 
 
-function zerar(){
-    var elementos = document.getElementsByClassName('botao');
-    console.log(elementos)
-    for(var i=0; i < elementos.length; i++){
-        elementos[i].style.backgroundColor = 'rgb(500,500,500)';
-    }
-}
+// function zerar(){
+//     var elementos = document.getElementsByClassName('botao');
+//     console.log(elementos)
+//     for(var i=0; i < elementos.length; i++){
+//         elementos[i].style.backgroundColor = 'rgb(500,500,500)';
+//     }
+// }
 
 function marca(id, posicao) {
     let elemento = document.getElementsByClassName('botao');
